@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw-python-web-nine"
+version = "0.1.0"
+description = ""
+authors = ["Denys Filichkin <denys.philichkin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_python_web_nine"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+lxml = "^4.9.3"
+sqlalchemy = "^2.0.18"
+scrapy = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
