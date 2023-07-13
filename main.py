@@ -47,7 +47,7 @@ class Q_Pipline:
         return
 
     def close_spider(self, spider):
-        with open('json/qoutes.json', 'w', encoding='utf-8') as fq:
+        with open('json/quotes.json', 'w', encoding='utf-8') as fq:
             json.dumps(self.quotes, fq, ensure_ascii=False)
 
         with open('json/authors.json', 'w', encoding='utf-8') as fa:
